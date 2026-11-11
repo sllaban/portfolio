@@ -21,7 +21,7 @@ export default function Contact() {
               <Mail className="h-5 w-5 text-primary" />
               <div>
                 <p className="text-xs text-muted-foreground font-medium">Email</p>
-                <p className="text-sm font-semibold">fimperial@ncf.edu.ph</p>
+                <p className="text-sm font-semibold">sllaban@ncf.edu.ph</p>
               </div>
             </CardContent>
           </Card>
@@ -31,7 +31,7 @@ export default function Contact() {
               <Phone className="h-5 w-5 text-primary" />
               <div>
                 <p className="text-xs text-muted-foreground font-medium">Phone</p>
-                <p className="text-sm font-semibold">+1 (555) 000-0000</p>
+                <p className="text-sm font-semibold">09930714469</p>
               </div>
             </CardContent>
           </Card>
@@ -41,7 +41,7 @@ export default function Contact() {
               <MapPin className="h-5 w-5 text-primary" />
               <div>
                 <p className="text-xs text-muted-foreground font-medium">Location</p>
-                <p className="text-sm font-semibold">Naga City, Philippines</p>
+                <p className="text-sm font-semibold">Calabanga, Camarines Sur, Philippines</p>
               </div>
             </CardContent>
           </Card>
@@ -57,11 +57,11 @@ export default function Contact() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium">Name</label>
-                  <Input id="name" placeholder="Fritzgerald Enric T. Imperial" required />
+                  <Input id="name" placeholder="Stephen S. Llaban" required />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium">Email</label>
-                  <Input id="email" type="email" placeholder="fimperial@ncf.edu.ph" required />
+                  <Input id="email" type="email" placeholder="Sllaban@ncf.edu.ph" required />
                 </div>
               </div>
 

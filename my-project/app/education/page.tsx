@@ -2,24 +2,18 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { GraduationCap, Award } from "lucide-react";
 
 const educationList = [
-  {
-    degree: "Master in Information Technology",
-    institution: "Ateneo Naga University",
-    period: "2012 - 2016",
-    description: "Focused on software engineering, data structures, algorithms, and web development.",
-    achievements: ["Magna Cum Laude", "Dean's List (All Semesters)", "Capstone Project Lead"],
-  },
+ 
   {
     degree: "BS in Information Technology",
-    institution: "University of Nueva Caceres",
-    period: "2005 - 2010",
+    institution: "Naga College Foundation",
+    period: "2025 - 2026",
     description: "Intensive program covering React, Node.js, databases, and deployment.",
     achievements: ["Built 3 full-stack applications", "Peer Code Reviewer"],
   },
   {
     degree: "High School Education",
-    institution: "Ateneo de Naga University",
-    period: "1999 - 2003",
+    institution: "Dominican School of Calabanga",
+    period: "2019 - 2024",
     description: "Intensive program covering React, Node.js, databases, and deployment.",
     achievements: ["Built 3 full-stack applications", "Peer Code Reviewer"],
   },

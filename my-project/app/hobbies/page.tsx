@@ -2,36 +2,20 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Camera, Gamepad2, Music, Dumbbell, Plane, BookOpen } from "lucide-react";
 
 const hobbies = [
-  {
-    title: "Photography",
-    icon: Camera,
-    description: "Capturing street landscapes and urban architecture during evening walks.",
-  },
+  
   {
     title: "Gaming",
     icon: Gamepad2,
     description: "Enthusiast for strategy and RPG games.",
   },
-  {
-    title: "Music & Guitar",
-    icon: Music,
-    description: "Playing acoustic guitar and exploring indie rock music.",
-  },
+  
   {
     title: "Fitness & Running",
     icon: Dumbbell,
     description: "Staying active through regular workout sessions and weekend runs.",
   },
-  {
-    title: "Travel & Hiking",
-    icon: Plane,
-    description: "Exploring national parks, hiking trails, and new places.",
-  },
-  {
-    title: "Reading",
-    icon: BookOpen,
-    description: "Fascinated by tech history and sci-fi novels.",
-  },
+  
+  
 ];
 
 export default function Hobbies() {
